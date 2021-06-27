@@ -1,0 +1,5 @@
+name: BumperDance
+version: 1.0
+main: io.github.zemelua.bumperdance.BumperDance
+api-version: 1.16
+authors: [ Zemelua ]

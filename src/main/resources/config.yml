@@ -1,0 +1,14 @@
+#普通にサーバーからreloadコマンド打つだけでは変更が反映されない。らしい。
+#/bd reload で読み込み直せます。
+
+sneakGrow:               #スニーク時に周囲の作物を成長させる
+  enable: true           #有効/無効を切り替える
+  rangeH: 2              #横方向の距離。円形ではなく正方形になる
+  rangeV: 1              #縦方向の距離
+  distanceDecay: true    #trueのとき、プレイヤーから遠いほど育つ確率が低くなる
+harvestEXP:              #作物を壊すとランダムな量の経験値をドロップする
+  enable: true           #有効/無効を切り替える
+  coefficient: 1         #ドロップする経験値の量に乗算される
+easyReap:                #クワを持って作物を左クリックすると種を植えた状態で収穫できる
+  enable: true           #有効/無効を切り替える
+  unnecessaryHoe: false  #trueのとき、クワを持っていなくても収穫できる
